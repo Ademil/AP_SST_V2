@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0d2b4e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="APAVAN SST">
+<meta name="description" content="APAVAN SST - Seguranca e Saude do Trabalho">
+<title>APAVAN SST</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>AP</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-logo">AP</div>
+      <div class="brand-text">
+        <h1>APAVAN SST</h1>
+        <p>Seguranca e Saude do Trabalho</p>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="#dashboard" data-page="dashboard" data-action="nav"><span class="ico">*</span> Dashboard</a>
+      <a href="#cliente" data-page="cliente" data-action="nav"><span class="ico">*</span> Painel do Cliente</a>
+      <a href="#empresas" data-page="empresas" data-action="nav"><span class="ico">*</span> Empresas</a>
+      <a href="#setores" data-page="setores" data-action="nav"><span class="ico">*</span> Setores</a>
+      <a href="#trabalhadores" data-page="trabalhadores" data-action="nav"><span class="ico">*</span> Trabalhadores</a>
+      <a href="#riscos" data-page="riscos" data-action="nav"><span class="ico">!</span> GRO / PGR</a>
+      <a href="#checklistIntel" data-page="checklistIntel" data-action="nav"><span class="ico">*</span> Checklist Inteligente</a>
+
+      <div style="padding:10px 12px 4px;font-size:10px;letter-spacing:1.2px;color:#7e98b5;text-transform:uppercase">Modulos NR</div>
+      <a href="#nr10" data-page="nr10" data-action="nav"><span class="ico">*</span> NR-10 Eletrica</a>
+      <a href="#nr12" data-page="nr12" data-action="nav"><span class="ico">*</span> NR-12 Maquinas</a>
+      <a href="#nr13" data-page="nr13" data-action="nav"><span class="ico">*</span> NR-13 Caldeiras</a>
+      <a href="#nr17" data-page="nr17" data-action="nav"><span class="ico">*</span> NR-17 Ergonomia</a>
+      <a href="#nr18" data-page="nr18" data-action="nav"><span class="ico">*</span> NR-18 Construcao</a>
+      <a href="#nr20" data-page="nr20" data-action="nav"><span class="ico">*</span> NR-20 Inflamaveis</a>
+      <a href="#nr23" data-page="nr23" data-action="nav"><span class="ico">*</span> NR-23 Incendio</a>
+      <a href="#nr33" data-page="nr33" data-action="nav"><span class="ico">*</span> NR-33 Espaco Confinado</a>
+      <a href="#nr35" data-page="nr35" data-action="nav"><span class="ico">*</span> NR-35 Trabalho Altura</a>
+
+      <div style="padding:10px 12px 4px;font-size:10px;letter-spacing:1.2px;color:#7e98b5;text-transform:uppercase">Documentos</div>
+      <a href="#apr" data-page="apr" data-action="nav"><span class="ico">*</span> APR</a>
+      <a href="#pt" data-page="pt" data-action="nav"><span class="ico">*</span> Permissao de Trabalho</a>
+      <a href="#pet" data-page="pet" data-action="nav"><span class="ico">*</span> PET (NR-33)</a>
+      <a href="#os" data-page="os" data-action="nav"><span class="ico">*</span> Ordem de Servico</a>
+      <a href="#fotos" data-page="fotos" data-action="nav"><span class="ico">*</span> Relatorio Fotografico</a>
+      <a href="#documentos" data-page="documentos" data-action="nav"><span class="ico">*</span> GED</a>
+
+      <div style="padding:10px 12px 4px;font-size:10px;letter-spacing:1.2px;color:#7e98b5;text-transform:uppercase">Gestao</div>
+      <a href="#inspecoes" data-page="inspecoes" data-action="nav"><span class="ico">*</span> Inspecoes</a>
+      <a href="#ncs" data-page="ncs" data-action="nav"><span class="ico">x</span> Nao Conformidades</a>
+      <a href="#planoAcao" data-page="planoAcao" data-action="nav"><span class="ico">*</span> Plano de Acao</a>
+      <a href="#epis" data-page="epis" data-action="nav"><span class="ico">*</span> EPI</a>
+      <a href="#treinamentos" data-page="treinamentos" data-action="nav"><span class="ico">*</span> Treinamentos</a>
+      <a href="#vencimentos" data-page="vencimentos" data-action="nav"><span class="ico">*</span> Vencimentos</a>
+      <a href="#auditoria" data-page="auditoria" data-action="nav"><span class="ico">*</span> Modo Auditoria</a>
+      <a href="#ia" data-page="ia" data-action="nav"><span class="ico">*</span> APAVAN SST IA</a>
+      <a href="#busca" data-page="busca" data-action="nav"><span class="ico">*</span> Busca Global</a>
+      <a href="#nrs" data-page="nrs" data-action="nav"><span class="ico">*</span> Base NRs</a>
+      <a href="#relatorios" data-page="relatorios" data-action="nav"><span class="ico">*</span> Relatorios</a>
+      <a href="#perfis" data-page="perfis" data-action="nav"><span class="ico">*</span> Perfis</a>
+      <a href="#config" data-page="config" data-action="nav"><span class="ico">*</span> Configuracoes</a>
+    </nav>
+
+    <div class="sync-bar" id="sync-bar"><span class="dot"></span> Online</div>
+  </aside>
+
+  <main class="main">
+    <header class="page-head" style="margin-bottom:16px">
+      <div style="display:flex;align-items:center;gap:12px">
+        <button class="menu-toggle" data-action="toggle-menu">Menu</button>
+        <div class="small muted">APAVAN ENGENHARIA E CONSULTORIA</div>
+      </div>
+      <div class="small muted">v2.0</div>
+    </header>
+    <div id="view"></div>
+  </main>
+
+  <nav class="bottom-nav">
+    <a href="#dashboard" data-page="dashboard" data-action="nav"><span class="ico">*</span>Inicio</a>
+    <a href="#riscos" data-page="riscos" data-action="nav"><span class="ico">!</span>Riscos</a>
+    <a href="#busca" data-page="busca" data-action="nav"><span class="ico">*</span>Busca</a>
+    <a href="#vencimentos" data-page="vencimentos" data-action="nav"><span class="ico">*</span>Prazos</a>
+    <a href="#config" data-page="config" data-action="nav"><span class="ico">*</span>Menu</a>
+  </nav>
+
+</div>
+
+<!-- Ordem OBRIGATORIA: plugins ANTES do app.js -->
+<script src="js/database.js"></script>
+<script src="js/nr-base.js"></script>
+<script src="js/nr-checklists.js"></script>
+<script src="js/modulos-nr.js"></script>
+<script src="js/documentos.js"></script>
+<script src="js/inteligencia.js"></script>
+<script src="js/gestao.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
