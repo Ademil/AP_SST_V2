@@ -1,4 +1,4 @@
-const CACHE = 'apavan-sst-v2';
+const CACHE = 'apavan-sst-v3';
 const ASSETS = [
   './', './index.html', './manifest.json',
   './css/style.css',
