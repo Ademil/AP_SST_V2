@@ -191,3 +191,21 @@ td .row-actions{display:flex;gap:6px}
   .card{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid}
   body{background:#fff}
 }
+/* Logo no sidebar */
+.brand-img{
+  height:38px;
+  width:auto;
+  max-width:110px;
+  object-fit:contain;
+  border-radius:6px;
+  background:#fff;
+  padding:3px 5px;
+  flex-shrink:0;
+}
+
+/* Cabeçalho de relatórios */
+.relatorio-logo{
+  height:56px;
+  width:auto;
+  margin-bottom:8px;
+}

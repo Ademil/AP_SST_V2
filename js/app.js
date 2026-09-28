@@ -759,8 +759,8 @@ const App = {
 
       <div class="card" id="relatorio">
         <div style="text-align:center;border-bottom:2px solid var(--azul-escuro);padding-bottom:14px;margin-bottom:20px">
-          <div style="font-size:12px;letter-spacing:2px;color:var(--azul);font-weight:700">APAVAN ENGENHARIA E CONSULTORIA</div>
-          <h2 style="margin:6px 0;color:var(--azul-escuro)">RELATÓRIO TÉCNICO DE SST</h2>
+  <img src="assets/logo-apavan.png" alt="APAVAN" class="relatorio-logo">
+  <h2 style="margin:6px 0;color:var(--azul-escuro)">RELATÓRIO TÉCNICO DE SST</h2>
           <div class="small muted">Emitido em ${new Date().toLocaleString('pt-BR')}</div>
         </div>
 

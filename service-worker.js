@@ -4,9 +4,12 @@ const ASSETS = [
   './css/style.css',
   './js/database.js', './js/nr-base.js', './js/nr-checklists.js',
   './js/modulos-nr.js', './js/documentos.js', './js/inteligencia.js', './js/gestao.js',
-  './js/app.js'
+  './js/app.js',
+  './assets/logo-apavan.png',
+  './assets/icon-192.png',
+  './assets/icon-512.png',
+  './assets/favicon.png'
 ];
-
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));
 });
